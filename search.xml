@@ -17,25 +17,18 @@
     
     
     <entry>
-      <title>20231203</title>
-      <link href="/2023/12/03/20231203/"/>
-      <url>/2023/12/03/20231203/</url>
-      
-        <content type="html"><![CDATA[<p>设置 - - - - 描述 - - - - Default<br>layout - - - - Layout - - - - post或page<br>title - - - - 文章的标题 - - - -<br>date - - - - 创建日期 - - - - 文件的创建日期<br>updated - - - - 修改日期 - - - - 文件的修改日期<br>comments - - - - 是否开启评论 - - - - true<br>tags - - - - 标签<br>categories - - - - 分类<br>permalink - - - - url中的名字 - - - - 文件名</p>]]></content>
-      
-      
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>MathjaxTest1</title>
+      <title>Mathjax&amp;Title</title>
       <link href="/2023/12/03/%5B20231202%5DMathjaxTest/"/>
       <url>/2023/12/03/%5B20231202%5DMathjaxTest/</url>
       
-        <content type="html"><![CDATA[<p>Test123:</p><script type="math/tex; mode=display">i\hbar\frac{\partial}{\partial t}\psi=-\frac{\hbar^2}{2m}\nabla^2\psi+V\psi</script><p>行间公式 $O(f(n))=log_2^{n}$ 测试</p>]]></content>
+        <content type="html"><![CDATA[<p>1、数学公式显示:</p><script type="math/tex; mode=display">i\hbar\frac{\partial}{\partial t}\psi=-\frac{\hbar^2}{2m}\nabla^2\psi+V\psi</script><p>2、表头列表</p><p>设置 - - - - 描述 - - - - Default<br>layout - - - - Layout - - - - post或page<br>title - - - - 文章的标题 - - - -<br>date - - - - 创建日期 - - - - 文件的创建日期<br>updated - - - - 修改日期 - - - - 文件的修改日期<br>comments - - - - 是否开启评论 - - - - true<br>tags - - - - 标签<br>categories - - - - 分类<br>permalink - - - - url中的名字 - - - - 文件名</p>]]></content>
       
+      
+      <categories>
+          
+          <category> 杂 </category>
+          
+      </categories>
       
       
         <tags>

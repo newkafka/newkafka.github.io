@@ -14,7 +14,7 @@
 
 
 
-<title>20231203 | Hexo</title>
+<title>Category: 杂 | Hexo</title>
 
 
 
@@ -101,74 +101,49 @@
 
       <div class="main">
         <div class="flex-container">
-          <article id="post">
-
-  
-    <div class="post-head">
-    <div class="post-info">
-        <div class="tag-list">
-            
-        </div>
-        <div class="post-title">
-            
-            
-                20231203
-            
-            
-        </div>
-        <span class="post-date">
-            Dec 3, 2023
-        </span>
-    </div>
-    <div class="post-img">
+          <div id="category">
+  <div class="post-gallery">
+    <div class="post-gallery-list">
         
-            <div class="h-line-primary"></div>
-              
+            <div class="post-gallery-item">
+                <div class="post-info">
+                    <div class="tag-list">
+                        
+                            
+                                <span class="post-tag">
+                                    <a href="/tags/Test/">
+                                        Test
+                                    </a>
+                                </span>   
+                                       
+                        
+                    </div>
+                    <div class="post-title">
+                        <a href="/2023/12/03/%5B20231202%5DMathjaxTest/"</a>
+                            
+                                Mathjax&amp;Title
+                            
+                        </a>
+                    </div>
+                    <span class="post-date">
+                        Dec 3, 2023
+                    </span>
+                </div>
+                <div class="post-img">
+                  
+                </div>
+            </div>
+            <div class="h-line-secondary"></div>
+        
+    </div>
+    <div id="paginator">
+        
     </div>
 </div>
-    <div class="post-content">
-    <p>设置 - - - - 描述 - - - - Default<br>layout - - - - Layout - - - - post或page<br>title - - - - 文章的标题 - - - -<br>date - - - - 创建日期 - - - - 文件的创建日期<br>updated - - - - 修改日期 - - - - 文件的修改日期<br>comments - - - - 是否开启评论 - - - - true<br>tags - - - - 标签<br>categories - - - - 分类<br>permalink - - - - url中的名字 - - - - 文件名</p>
-
-</div> 
-
-<script>
-    window.onload = detectors();
-</script>
-    <div class="post-footer">
-    <div class="h-line-primary"></div>
-    <nav class="post-nav">
-        <div class="prev-item">
-           
-                <div class="icon arrow-left"></div>
-                <div class="post-link">
-                    <a href="/2023/12/03/%E8%85%BE%E8%AE%AF%E4%BA%91-windows%E5%AE%9E%E4%BE%8B-jenkins-tortoiseSVN/">Prev</a>
-                </div>
-            
-        </div>
-        <div class="next-item">
-            
-                <div class="icon arrow-right"></div>
-                <div class="post-link">
-                  <a href="/2023/12/03/%5B20231202%5DMathjaxTest/">Next</a>  
-                </div>  
-            
-        </div>
-    </nav>
-</div>
-
-    
-      <div class="post-comment">
-
-     
-
-     
-    
-    
 
 </div>
-     
-  
-</article>
+
+
         </div>
       </div>
       
@@ -189,5 +164,20 @@
     
     
 
-  </body>
+  <script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+        tex2jax: {
+            inlineMath: [ ["$","$"], ["\\(","\\)"] ],
+            skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code'],
+            processEscapes: true
+        }
+    });
+    MathJax.Hub.Queue(function() {
+        var all = MathJax.Hub.getAllJax();
+        for (var i = 0; i < all.length; ++i)
+            all[i].SourceElement().parentNode.className += ' has-jax';
+    });
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+</body>
 </html>

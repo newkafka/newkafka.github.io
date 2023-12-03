@@ -14,7 +14,7 @@
 
 
 
-<title>MathjaxTest1 | Hexo</title>
+<title>Mathjax&amp;Title | Hexo</title>
 
 
 
@@ -120,7 +120,7 @@
         <div class="post-title">
             
             
-                MathjaxTest1
+                Mathjax&amp;Title
             
             
         </div>
@@ -135,9 +135,10 @@
     </div>
 </div>
     <div class="post-content">
-    <p>Test123:</p>
+    <p>1、数学公式显示:</p>
 <script type="math/tex; mode=display">
-i\hbar\frac{\partial}{\partial t}\psi=-\frac{\hbar^2}{2m}\nabla^2\psi+V\psi</script><p>行间公式 $O(f(n))=log_2^{n}$ 测试</p>
+i\hbar\frac{\partial}{\partial t}\psi=-\frac{\hbar^2}{2m}\nabla^2\psi+V\psi</script><p>2、表头列表</p>
+<p>设置 - - - - 描述 - - - - Default<br>layout - - - - Layout - - - - post或page<br>title - - - - 文章的标题 - - - -<br>date - - - - 创建日期 - - - - 文件的创建日期<br>updated - - - - 修改日期 - - - - 文件的修改日期<br>comments - - - - 是否开启评论 - - - - true<br>tags - - - - 标签<br>categories - - - - 分类<br>permalink - - - - url中的名字 - - - - 文件名</p>
 
 </div> 
 
@@ -151,7 +152,7 @@ i\hbar\frac{\partial}{\partial t}\psi=-\frac{\hbar^2}{2m}\nabla^2\psi+V\psi</scr
            
                 <div class="icon arrow-left"></div>
                 <div class="post-link">
-                    <a href="/2023/12/03/20231203/">Prev</a>
+                    <a href="/2023/12/03/%E8%85%BE%E8%AE%AF%E4%BA%91-windows%E5%AE%9E%E4%BE%8B-jenkins-tortoiseSVN/">Prev</a>
                 </div>
             
         </div>
@@ -199,5 +200,20 @@ i\hbar\frac{\partial}{\partial t}\psi=-\frac{\hbar^2}{2m}\nabla^2\psi+V\psi</scr
     
     
 
-  </body>
+  <script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+        tex2jax: {
+            inlineMath: [ ["$","$"], ["\\(","\\)"] ],
+            skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code'],
+            processEscapes: true
+        }
+    });
+    MathJax.Hub.Queue(function() {
+        var all = MathJax.Hub.getAllJax();
+        for (var i = 0; i < all.length; ++i)
+            all[i].SourceElement().parentNode.className += ' has-jax';
+    });
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+</body>
 </html>
