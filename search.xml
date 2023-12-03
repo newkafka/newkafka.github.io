@@ -2,6 +2,101 @@
 <search> 
   
   
+    
+    <entry>
+      <title>20231203</title>
+      <link href="/2023/12/03/20231203/"/>
+      <url>/2023/12/03/20231203/</url>
+      
+        <content type="html"><![CDATA[<p>设置 - - - - 描述 - - - - Default<br>layout - - - - Layout - - - - post或page<br>title - - - - 文章的标题 - - - -<br>date - - - - 创建日期 - - - - 文件的创建日期<br>updated - - - - 修改日期 - - - - 文件的修改日期<br>comments - - - - 是否开启评论 - - - - true<br>tags - - - - 标签<br>categories - - - - 分类<br>permalink - - - - url中的名字 - - - - 文件名</p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>MathjaxTest1</title>
+      <link href="/2023/12/03/%5B20231202%5DMathjaxTest/"/>
+      <url>/2023/12/03/%5B20231202%5DMathjaxTest/</url>
+      
+        <content type="html"><![CDATA[<p>Test123:</p><script type="math/tex; mode=display">i\hbar\frac{\partial}{\partial t}\psi=-\frac{\hbar^2}{2m}\nabla^2\psi+V\psi</script><p>行间公式 $O(f(n))=log_2^{n}$ 测试</p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> Test </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>i am back</title>
+      <link href="/2023/05/21/%5B20230521%5Di-am-back/"/>
+      <url>/2023/05/21/%5B20230521%5Di-am-back/</url>
+      
+        <content type="html"><![CDATA[<p>开始恢复写作，分成3类：1、技术文章；2、非技术文章(主要就是议论文)。</p><p>目标是一周至少一篇技术文章，其他不限。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> Argumentation </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 杂谈 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Test</title>
+      <link href="/2019/09/30/Test/"/>
+      <url>/2019/09/30/Test/</url>
+      
+        <content type="html"><![CDATA[<figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;stdio.h&gt;</span></span></span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line"><span class="built_in">printf</span>(<span class="string">&quot;Test, test, reply me\n&quot;</span>);</span><br><span class="line"><span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br><span class="line"></span><br></pre></td></tr></table></figure>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> Code </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Hello,World</title>
+      <link href="/2019/09/22/Hello-World-0/"/>
+      <url>/2019/09/22/Hello-World-0/</url>
+      
+        <content type="html"><![CDATA[<p>去告诉世界，我来了</p><hr>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> 杂谈 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
   
   
 </search>
